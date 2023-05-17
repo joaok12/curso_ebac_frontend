@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{ 
+    margin-left: 80px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 12px;
+    margin-top: 8px;
+    transition: color 0.5s ease;
+}
+
+input,
+button{
+    display: block;
+    margin-bottom: 8px;
+    width: 140px;
+    height: 35px;
+    margin-left: 195px;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+
+button{
+    background-color: rgb(255, 206, 127);
+    color: rgb(39, 39, 39);
+    border: 0;
+    border-radius: 8px;
+    height: 35px;
+    cursor: pointer;
+}   
+
+@keyframes clickAnimation {
+    0% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(0.9);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+.clicked-animation {
+    animation: clickAnimation 0.2s
+}
+
+button:hover{
+    background-color: rgb(224, 175, 98);
+}
+
+.success-mensage{
+    background-color: rgb(204, 154, 255);
+    color: rgb(255, 255, 255);
+    max-width: 450px;
+    margin-left: 164px;
+    width: 200px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 4px;
+
+}
+
+body {
+    transition: background-color 0.5s ease;
+}
+
+.incorrect{
+    color: red;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 195px;
+    margin-top: -5px;
+    display: none;
+}
+
+#nome-cliente{
+    display: block;
+}
