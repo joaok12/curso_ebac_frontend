@@ -75,7 +75,6 @@ margin-bottom: 8px;
 
 .articles article a:hover{
     text-decoration: underline;
-
 }
 
 .articles article p,
@@ -99,6 +98,12 @@ section h2{
 background-color: rgba(0, 124, 0, 0.8);
 color: #fff8f8;
 }
+
+#sports .articles article a:hover{
+    background-color: rgba(0, 77, 21, 0.8);
+    color: #fffefe;
+    }
+    
 
 
 #economy{
@@ -124,5 +129,3 @@ color: #fff8f8;
 #technology .articles article a{
     background-color: rgb(83, 11, 218);
 }
-
-
